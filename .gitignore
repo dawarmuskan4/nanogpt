@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# macOS
+.DS_Store
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model checkpoints / PyTorch weights
+*.pt
+*.pth
+*.bin
+ckpt.pt
+
+# Logs & tracking
+*.log
+wandb/
